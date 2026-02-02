@@ -1,0 +1,14 @@
+﻿components/TaskCard.tsx(24,18): error TS2322: Type '{ children: ("" | Element | undefined)[]; initial: { opacity: number; y: number; }; animate: { opacity: number; y: number; }; exit: { opacity: number; scale: number; }; whileHover: { scale: number; }; ... 12 more ...; ref: (element?: HTMLElement | ... 1 more ... | undefined) => void; }' is not assignable to type 'Omit<HTMLMotionProps<"div">, "ref">'.
+  Types of property 'onDragStart' are incompatible.
+    Type 'DragEventHandler | undefined' is not assignable to type '((event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => void) | undefined'.
+      Type 'DragEventHandler' is not assignable to type '(event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => void'.
+        Types of parameters 'event' and 'event' are incompatible.
+          Type 'MouseEvent | TouchEvent | PointerEvent' is not assignable to type 'DragEvent<Element>'.
+            Type 'MouseEvent' is missing the following properties from type 'DragEvent<Element>': dataTransfer, nativeEvent, isDefaultPrevented, isPropagationStopped, persist
+components/ui/Button.tsx(29,14): error TS2322: Type '{ children: ReactNode; id?: string | undefined; title?: string | undefined; values?: { [key: string]: MotionValue<number> | MotionValue<string>; } | undefined; ... 343 more ...; className: string; }' is not assignable to type 'Omit<HTMLMotionProps<"button">, "ref">'.
+  Types of property 'onAnimationStart' are incompatible.
+    Type 'AnimationEventHandler<HTMLButtonElement> | undefined' is not assignable to type '((definition: AnimationDefinition) => void) | undefined'.
+      Type 'AnimationEventHandler<HTMLButtonElement>' is not assignable to type '(definition: AnimationDefinition) => void'.
+        Types of parameters 'event' and 'definition' are incompatible.
+          Type 'AnimationDefinition' is not assignable to type 'AnimationEvent<HTMLButtonElement>'.
+            Type 'string' is not assignable to type 'AnimationEvent<HTMLButtonElement>'.

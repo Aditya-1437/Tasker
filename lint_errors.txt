@@ -1,0 +1,124 @@
+﻿
+> temp-app@0.1.0 lint
+> eslint
+
+node.exe : 
+At C:\Program Files\n
+odejs\npm.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (:String   
+ ) [], RemoteExce    
+ption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Oops! Something went 
+wrong! :(
+
+ESLint: 9.39.2
+
+TypeError: 
+Converting circular 
+structure to JSON
+    --> starting at 
+object with 
+constructor 'Object'
+    |     property 
+'configs' -> object 
+with constructor 
+'Object'
+    |     property 
+'flat' -> object 
+with constructor 
+'Object'
+    |     ...
+    |     property 
+'plugins' -> object 
+with constructor 
+'Object'
+    --- property 
+'react' closes the 
+circle
+Referenced from: 
+    at 
+JSON.stringify 
+(<anonymous>)
+    at file:///C:/Use
+rs/kunch/OneDrive/Des
+ktop/Pinnacle%20Nexus
+/Tasker/node_modules/
+@eslint/eslintrc/lib/
+shared/config-validat
+or.js:308:45
+    at Array.map 
+(<anonymous>)
+    at ConfigValidato
+r.formatErrors (file:
+///C:/Users/kunch/One
+Drive/Desktop/Pinnacl
+e%20Nexus/Tasker/node
+_modules/@eslint/esli
+ntrc/lib/shared/confi
+g-validator.js:299:23
+)
+    at ConfigValidato
+r.validateConfigSchem
+a (file:///C:/Users/k
+unch/OneDrive/Desktop
+/Pinnacle%20Nexus/Tas
+ker/node_modules/@esl
+int/eslintrc/lib/shar
+ed/config-validator.j
+s:330:84)
+    at ConfigArrayFac
+tory._normalizeConfig
+Data (file:///C:/User
+s/kunch/OneDrive/Desk
+top/Pinnacle%20Nexus/
+Tasker/node_modules/@
+eslint/eslintrc/lib/c
+onfig-array-factory.j
+s:676:19)
+    at ConfigArrayFac
+tory._loadConfigData 
+(file:///C:/Users/kun
+ch/OneDrive/Desktop/P
+innacle%20Nexus/Taske
+r/node_modules/@eslin
+t/eslintrc/lib/config
+-array-factory.js:641
+:21)
+    at ConfigArrayFac
+tory._loadExtendedSha
+reableConfig (file://
+/C:/Users/kunch/OneDr
+ive/Desktop/Pinnacle%
+20Nexus/Tasker/node_m
+odules/@eslint/eslint
+rc/lib/config-array-f
+actory.js:946:21)
+    at ConfigArrayFac
+tory._loadExtends (fi
+le:///C:/Users/kunch/
+OneDrive/Desktop/Pinn
+acle%20Nexus/Tasker/n
+ode_modules/@eslint/e
+slintrc/lib/config-ar
+ray-factory.js:814:25
+)
+    at ConfigArrayFac
+tory._normalizeObject
+ConfigDataBody (file:
+///C:/Users/kunch/One
+Drive/Desktop/Pinnacl
+e%20Nexus/Tasker/node
+_modules/@eslint/esli
+ntrc/lib/config-array
+-factory.js:752:25)
