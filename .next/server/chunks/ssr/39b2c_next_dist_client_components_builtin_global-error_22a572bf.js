@@ -1,0 +1,3 @@
+module.exports=[94238,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(66581);a.n(d("[project]/OneDrive/Desktop/Pinnacle Nexus/Tasker/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},90660,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(66581);a.n(d("[project]/OneDrive/Desktop/Pinnacle Nexus/Tasker/node_modules/next/dist/client/components/builtin/global-error.js"))},91912,a=>{"use strict";a.i(94238);var b=a.i(90660);a.n(b)}];
+
+//# sourceMappingURL=39b2c_next_dist_client_components_builtin_global-error_22a572bf.js.map
